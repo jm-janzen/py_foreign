@@ -9,7 +9,7 @@ class Math():
     # Initialise here, so consumer does not need to instantiate
     #
 
-    # Get path to compiles lib
+    # Get path to compiled lib
     lib_path    = os.path.join("extern", "lib", "library.so")
 
     # Get handle to lib
