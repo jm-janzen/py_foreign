@@ -1,0 +1,4 @@
+# Ignore Makefile generated dirs, contents
+*/build
+*/lib
+
