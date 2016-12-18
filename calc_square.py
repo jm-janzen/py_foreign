@@ -1,15 +1,17 @@
 #!/usr/bin/python
 
 import sys
+import argparse
 
 from extern.wrapper.square import Math
 
 def main():
+    # Get number argument
+    parser = argparse.ArgumentParser()
+    parser.add_argument("number", help="Integer to square", type=int)
+    args = parser.parse_args()
 
-    if not len(sys.argv) > 1:
-        print("Usage:\t./calc_square <NUMBER>")
-        exit(1)
-
-    print(Math.square(sys.argv[1]))
+    # Invoke and print result of Python wrapper
+    print(Math.square(args.number))
 
 main()
