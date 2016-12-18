@@ -2,3 +2,6 @@
 */build
 */lib
 
+# Ignore compiled bytecode
+__pycache__
+*.pyc
