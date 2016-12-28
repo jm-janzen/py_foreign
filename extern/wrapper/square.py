@@ -1,7 +1,6 @@
 
 import ctypes
 import os
-import sys
 
 class Math():
 
@@ -23,5 +22,4 @@ class Math():
 
     @staticmethod
     def square(x) : return Math.square_func(int(x))
-
 
